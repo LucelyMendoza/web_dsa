@@ -1,0 +1,13 @@
+export function Footer() {
+  return (
+    <footer className="site-footer">
+      <div>
+        <p className="footer-title">Dirección de Servicios Académicos</p>
+        <p>Universidad Nacional de San Agustín de Arequipa</p>
+      </div>
+      <div>
+        <p>Atención referencial: lunes a viernes de 8:00 a.m. - 1:00 pm y de 2:00-3:45 p.m.</p>
+      </div>
+    </footer>
+  );
+}
