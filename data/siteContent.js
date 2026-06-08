@@ -7,6 +7,7 @@ export const heroSlides = [
     tag: "Lanzamiento próximo",
     title: "SisacApp+ 1.2 llegará a Play Store y App Store.",
     text: "La nueva aplicación permitirá consultar información académica de pregrado, posgrado y segundas especialidades desde una experiencia más moderna y accesible.",
+    image: "/branding/sisacapp.png",
     ctaLabel: "",
     ctaHref: "",
   },
@@ -14,6 +15,7 @@ export const heroSlides = [
     tag: "Servicios académicos",
     title: "Una oficina digital pensada para orientar trámites con mayor claridad.",
     text: "El portal reúne certificaciones, guías, requisitos y canales de atención.",
+    image: "/branding/unsa-variants.png",
     ctaLabel: "Conocer la oficina",
     ctaHref: "/#oficina",
   },
@@ -22,6 +24,7 @@ export const heroSlides = [
     title: "Información institucional con acceso rápido para estudiantes y egresados.",
     text: "Noticias, accesos clave y procesos destacados.",
     ctaLabel: "Ir a guías",
+    image: "/branding/unsa-main.png",
     ctaHref: "/#guias",
   },
 ];

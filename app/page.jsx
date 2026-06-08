@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { HeroCarousel } from "@/components/HeroCarousel";
+import { WelcomeNotice } from "@/components/WelcomeNotice";
 import {
   featuredServices,
   guides,
@@ -13,6 +14,7 @@ export default function HomePage() {
   return (
     <main className="page-shell" id="top">
       <Header />
+      <WelcomeNotice />
       <HeroCarousel slides={heroSlides} />
 
       <section className="hero-section">

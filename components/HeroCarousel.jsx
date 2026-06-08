@@ -22,6 +22,7 @@ export function HeroCarousel({ slides }) {
             key={slide.title}
             className={`hero-slide ${index === activeIndex ? "hero-slide-active" : ""}`}
             aria-hidden={index !== activeIndex}
+            style={slide.image ? { "--hero-slide-image": `url(${slide.image})` } : undefined}
           >
             <div className="hero-slide-content">
               <p className="section-tag hero-slide-tag">{slide.tag}</p>
