@@ -61,11 +61,11 @@ export default function HomePage() {
           <div className="sisac-card">
             <img src="/branding/sisacapp.png" alt="Logo SisacApp+" className="sisac-image" />
             <div>
-              <p className="overlay-tag">Próximo lanzamiento</p>
+              <p className="overlay-tag">próximo lanzamiento</p>
               <h3>SisacApp+ 1.2 destacada como nueva aplicación institucional</h3>
               <p>
-                Aplicación para revisar información académica de estudiantes de pregrado, posgrado y
-                segundas especialidades desde dispositivos móviles.
+                Aplicación para consultar información académica de estudiantes de pregrado, posgrado y
+                segundas especialidades desde dispositivos móviles android y ios.
               </p>
             </div>
           </div>

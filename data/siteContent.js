@@ -6,7 +6,7 @@ export const heroSlides = [
   {
     tag: "Lanzamiento próximo",
     title: "SisacApp+ 1.2 llegará a Play Store y App Store.",
-    text: "La nueva aplicación permitirá revisar información académica de pregrado, posgrado y segundas especialidades desde una experiencia más moderna y accesible.",
+    text: "La nueva aplicación permitirá consultar información académica de pregrado, posgrado y segundas especialidades desde una experiencia más moderna y accesible.",
     ctaLabel: "",
     ctaHref: "",
   },
