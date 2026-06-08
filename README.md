@@ -18,13 +18,3 @@ npm run dev
 ```
 
 Abrir `http://localhost:3000`.
-
-## Despliegue económico o gratuito
-
-Esta versión está preparada para exportación estática, así que una opción simple y gratuita es Cloudflare Pages:
-
-```bash
-npm run build
-```
-
-Luego se publica la carpeta `out/`.
