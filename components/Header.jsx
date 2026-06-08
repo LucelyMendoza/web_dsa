@@ -66,8 +66,8 @@ export function Header() {
           className="menu-toggle"
           aria-expanded={isMenuOpen}
           aria-controls="mobile-menu"
-          aria-label="Abrir menú de navegación"
-          onClick={() => setIsMenuOpen(true)}
+          aria-label={isMenuOpen ? "Cerrar menú de navegación" : "Abrir menú de navegación"}
+          onClick={() => setIsMenuOpen((current) => !current)}
         >
           <span />
           <span />
@@ -109,7 +109,7 @@ export function Header() {
             </div>
           </div>
           <button type="button" className="menu-close" aria-label="Cerrar menú" onClick={closeMenu}>
-            ×
+            <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <nav className="mobile-nav" aria-label="Navegación móvil">
