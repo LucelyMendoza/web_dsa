@@ -6,7 +6,7 @@ export function Footer() {
         <p>Universidad Nacional de San Agustín de Arequipa</p>
       </div>
       <div>
-        <p>Atención referencial: lunes a viernes de 8:00 a.m. - 1:00 pm y de 2:00-3:45 p.m.</p>
+        <p>Atención referencial: Lunes a Viernes de 8:00 a.m. - 1:00 pm y de 2:00 - 3:45 p.m.</p>
       </div>
     </footer>
   );
