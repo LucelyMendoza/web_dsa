@@ -265,7 +265,7 @@ export const certificationCatalog = [
     name: "Constancia de no adeudar material bibliográfico",
     category: "Constancias",
     price: "S/ 10.00",
-    validity: "Vigencia de 3 días hábiles una vez emitida por la Oficina de Certificaciones.",
+    validity: "3 días hábiles una vez emitida.",
     audience: [
       "Pregrado",
       "Posgrado",
