@@ -5,6 +5,13 @@ import { useEffect, useState } from "react";
 
 export function HeroCarousel({ slides }) {
   const [activeIndex, setActiveIndex] = useState(0);
+  const goToPrevious = () => {
+    setActiveIndex((current) => (current - 1 + slides.length) % slides.length);
+  };
+
+  const goToNext = () => {
+    setActiveIndex((current) => (current + 1) % slides.length);
+  };
 
   useEffect(() => {
     const timer = window.setInterval(() => {
@@ -36,6 +43,17 @@ export function HeroCarousel({ slides }) {
             </div>
           </article>
         ))}
+        <div className="hero-carousel-arrows" aria-label="Controles del carrusel">
+          <button type="button" aria-label="Anuncio anterior" onClick={goToPrevious}>
+            ‹
+          </button>
+          <button type="button" aria-label="Anuncio siguiente" onClick={goToNext}>
+            ›
+          </button>
+        </div>
+        <div className="hero-slide-counter">
+          {String(activeIndex + 1).padStart(2, "0")} / {String(slides.length).padStart(2, "0")}
+        </div>
       </div>
 
       <div className="hero-carousel-controls" aria-label="Seleccionar anuncio">

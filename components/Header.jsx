@@ -82,8 +82,10 @@ export function Header() {
               className={
                 (item.href === "/tramites/certificaciones" && pathname === "/tramites/certificaciones") ||
                 (item.href === "/" && pathname === "/")
-                  ? "nav-active"
-                  : ""
+                  ? `nav-active ${item.href === "/tramites/certificaciones" ? "nav-cta" : ""}`
+                  : item.href === "/tramites/certificaciones"
+                    ? "nav-cta"
+                    : ""
               }
             >
               {item.label}
